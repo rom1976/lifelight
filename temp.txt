@@ -1,0 +1,36 @@
+
+
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-info mt-2">
+		<a class="navbar-brand" href="nav.html">Lifelight</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active mr-4">
+        <a class="nav-link" href="index.html"><i class="fa fa-home py-0"></i> Home</a>
+      </li>
+      <li class="nav-item active mr-4">
+        <a class="nav-link" href="about.html"><i class="fa fa-lock py-0"></i> About Us</a>
+      </li>
+      <li class="nav-item dropzone active mr-4">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrope" data-toggle="dropdown">
+		<i class="fa fa-cross py-0"></i> Ministries</a>
+		<div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+      </li>
+	  <li class="nav-item active mr-4">
+        <a class="nav-link" href="partner.html">
+		<i class="fa fa-user-friends py-0"></i>Partner </a>
+      </li>
+	  <li class="nav-item active mr-4">
+        <a class="nav-link" href="contact.html.html">
+		<i class="fa fa-map-marker py-0"></i> Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--top nav end here-->
