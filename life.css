@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+body{
+    margin: 0px;
+}
+.container-fluid{
+    width: 100%;
+}
+.section{
+    background-color: rgb(253, 253, 255);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color:rgba(184, 193, 235, 1);
+    background-attachment:fixed;
+    height: 800px;
+}
+.section-1{
+    background-image: url('/media/nathan-mullet-pmiW630yDPE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+    background-attachment:fixed;
+    height: 800px;
+}
+.section-2{
+    background-image: url('/media/rod-long.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment:scroll;
+    height: 800px;
+}
+.floatleft{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    width: 200px;
+    z-index: 3;
+  }
+  
+  .flmenu {
+      position: fixed;
+      display: block;
+  
+  }
+  
+  .flmenu img{
+      margin-right: auto;
+      margin-left: auto;
+      width:80px;
+      margin-bottom: 5px;
+      display: block;
+  }
+  
+  .nav{
+      width: 100%;
+      position: fixed;
+      top:0px;
+      right: 0px;
+      height: 60px;
+      background-color:rgb(240, 240, 247);
+      box-shadow: 0px 0px 30px 0px, rgba( white,0.2) , 0px 0px 30px 0px rgba(158, 167, 245,0.5);
+  }
+
+  .logo{
+      padding-top: 5px;
+      margin-left:1%;
+      float:left;
+      
+  }
+
+  .logo img{
+      
+      width: 60px;
+      float: left;
+      
+      
+  }
+  .llcaption{
+      color:black; 
+      line-height: 60px;
+      float: left; 
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 25px;
+      margin-left: 1%;
+  }
+  
+  div.log ::after{
+
+       clear: right;
+    }
+  ul{
+      position:absolute;
+      right: 0px;
+      list-style: none;
+      line-height: 40px;
+      padding: 0px;
+      margin: 0px;
+      text-align: right;
+  
+  }
+  
+  ul li{
+      /* background-color: rgb(44, 44, 194); */
+      line-height: 60px;
+      display: inline-block;
+      text-decoration: none;
+      /*margin-right: 10px; */
+     
+  
+  }
+  
+  ul li.last{
+      margin-right: 50px; 
+  }
+  
+  li:hover ul{
+      display: block;
+      position: absolute;
+  }
+  
+  
+  
+  ul li a{
+      /* background-color: rgb(44, 44, 194); */
+      line-height: 60px;
+      width:100px;
+      text-align: center;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif;
+  
+  }
+  
+   .drop-menu  {
+      /* background-color: rgb(44, 44, 194); */
+      position: relative;
+      text-decoration: none;
+      color:rgb(38, 14, 173);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+      
+  
+  }
+  
+   .drop-menu ul{ 
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      display: none;
+      text-decoration: none;
+      border-radius:0px 0px 5px 5px;
+      background-color: rgb(240, 240, 247);
+    }
+  
+    ul li.drop-menu ul li{
+      /* background-color: rgb(44, 44, 194); */
+      position:block;
+      clear: inherit;
+      line-height: 40px !important; 
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      text-decoration: none;
+      color:rgb(38, 14, 173);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .drop-menu ul li a{
+      /* background-color: rgb(44, 44, 194); */
+      position:block;
+      clear: inherit;
+      text-decoration: none;
+      font-family: Helvetica, sans-serif;
+      font-size: large;
+      
+  }
+  ul li.drop-menu ul li a:hover{
+      background-color:rgb(170, 173, 179);
+      border-radius: 5px;
+      color: black;
+      
+  
+  }
+  
+  li a:hover {
+      background-color:rgb(170, 173, 179);
+      color: black;
+      
+  }
